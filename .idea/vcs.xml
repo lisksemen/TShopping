@@ -4,6 +4,7 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Api Gateway" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Discovery Server" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Notification Service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Order Service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Product Service" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/inventory-service" vcs="Git" />

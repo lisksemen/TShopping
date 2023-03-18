@@ -10,23 +10,27 @@
         <module name="Discovery Server" />
         <module name="Api Gateway" />
         <module name="inventory-service" />
+        <module name="Notification Service" />
         <module name="Product Service" />
         <module name="Order Service" />
       </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.26/8f8cf0372abf564913e9796623aac4c8ea44025a/lombok-1.18.26.jar" />
+        </processorPath>
+        <module name="notofication-service.main" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Api Gateway" target="17" />
-      <module name="Discovery Server" target="17" />
-      <module name="inventory-service" target="17" />
-      <module name="Order Service" target="17" />
-      <module name="Product Service" target="17" />
-      <module name="tshopping" target="16" />
+      <module name="notofication-service" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Api Gateway" options="-parameters" />
       <module name="Discovery Server" options="-parameters" />
+      <module name="Notification Service" options="-parameters" />
       <module name="Order Service" options="-parameters" />
       <module name="Product Service" options="-parameters" />
       <module name="inventory-service" options="-parameters" />
