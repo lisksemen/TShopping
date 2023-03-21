@@ -4,33 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ee6221b-eba3-4044-8696-4c7a6b34d2a6" name="Changes" comment="Code cleanup">
-      <change afterPath="$PROJECT_DIR$/Notification Service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/src/main/java/com/app/notificationservice/NotificationServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/src/main/java/com/app/notificationservice/config/KafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/src/main/java/com/app/notificationservice/event/OrderLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/src/main/java/com/app/notificationservice/event/OrderPlacedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/src/main/java/com/app/notificationservice/listener/NotificationListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/src/main/java/com/app/notificationservice/service/DefaultEmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/src/main/java/com/app/notificationservice/service/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notification Service/src/test/java/com/app/notificationservice/NotificationServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="9ee6221b-eba3-4044-8696-4c7a6b34d2a6" name="Changes" comment="Added notification service and kafka">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/asynchronous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/databases.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/structure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/synchronous.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Order Service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order Service/src/main/java/com/app/orderservice/service/DefaultOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order Service/src/main/java/com/app/orderservice/service/DefaultOrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Order Service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,6 +192,7 @@
       <workItem from="1679055875799" duration="854000" />
       <workItem from="1679082679027" duration="123000" />
       <workItem from="1679082831307" duration="4812000" />
+      <workItem from="1679167757102" duration="4109000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679052813677</created>
@@ -227,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679052892976</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added notification service and kafka">
+      <created>1679167841030</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679167841030</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +260,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Code cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code cleanup" />
+    <MESSAGE value="Added notification service and kafka" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added notification service and kafka" />
   </component>
 </project>
